@@ -6,7 +6,7 @@ import axios from "axios";
 
 // varsayılan olarak baseUrl ekle
 // yapılan bütün isteklerin başındaki api url'İni belirle
-axios.defaults.baseURL = `http://localhost:3030`;
+axios.defaults.baseURL = `http://localhost:3000`;
 
 function App() {
   const [todos, setTodos] = useState(null);
